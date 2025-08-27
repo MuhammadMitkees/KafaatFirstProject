@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>منصة أمن المخالفات</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="header">
+        <nav>
+          <h1 class="headerTitle"><span>منصة أمن</span>المخالفات</h1>
+          <div class="header-left-div">
+            <div class="search-bar-div">
+              <form role="search" aria-label="Site search">
+                <div class="search-container">
+                  <label for="search-input" class="visually-hidden"
+                    >الإستعلامات العامة</label
+                  >
+                  <button type="submit" aria-label="Submit search">
+                    <img src="assets/icons/searchIcon.svg" alt="search Icon" />
+                  </button>
+                  <input
+                    type="search"
+                    id="search-input"
+                    name="q"
+                    placeholder="الإستعلامات العامة"
+                    aria-describedby="search-help"
+                    autocomplete="off"
+                    required
+                  />
+                </div>
+              </form>
+              <ul
+                class="dropdown-menu"
+                id="dropdown-menu-1"
+                aria-labelledby="dropdown-trigger-1"
+                role="menu"
+              >
+                <img
+                  class="avatar"
+                  src="assets/images/avatar.png"
+                  alt="personal image"
+                />
+                <p>
+                  مدني / محمد أحمد موسى الزغبي
+                  <span>مركز شرطة الطاز</span>
+                </p>
+                <button>
+                  <img src="assets/icons/ArrowDown.svg" alt="Arrow Down" />
+                </button>
+              </ul>
+            </div>
+            <span class="splitter"></span>
+            <ul class="icons-div">
+              <li>
+                <button>
+                  <img src="assets/icons/menuIcon.svg" alt="menu icon" />
+                </button>
+              </li>
+              <li>
+                <button>
+                  <img
+                    src="assets/icons/notficationIcon.svg"
+                    alt="notfication icon"
+                  />
+                </button>
+              </li>
+              <li>
+                <button>
+                  <img
+                    src="assets/icons/settingsIcon.svg"
+                    alt="settings icon"
+                  />
+                </button>
+              </li>
+              <li>
+                <button>
+                  <img src="assets/icons/capture Icon.svg" alt="capture icon" />
+                </button>
+              </li>
+              <li>
+                <button>
+                  <img
+                    src="assets/icons/burgerMenuIcon.svg"
+                    alt="burger menu icon"
+                  />
+                </button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- breadcrumbs -->
+      <ul class="breadcrumb-div">
+        <li>
+          <button>
+            <img src="assets/icons/homeIcon.svg" alt="Home icon" />
+            الرئيسية
+          </button>
+        </li>
+        <span>></span>
+        <li><button>المخالفات</button></li>
+        <span>></span>
+        <li><button>تفاصيل المخالفة</button></li>
+      </ul>
+      <!-- violation detail div  -->
+      <div class="violation-details-div">
+        <!-- violation details header  -->
+        <div class="violation-details-header">
+          <h2>تفاصيل المخالفه</h2>
+          <ul class="violation-details-header-buttons">
+            <li>
+              <button>
+                <img src="assets/icons/closeIcon.svg" alt="close Icon" /> الغاء
+                المخالفه
+              </button>
+            </li>
+            <li>
+              <button>
+                <img src="assets/icons/printIcon.svg" alt="print Icon" />
+              </button>
+            </li>
+            <li>
+              <button>
+                <img src="assets/icons/arrowLeft.svg" alt="arrow Left" />
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="violation-details-content">
+          <div class="right-violation-details-column">
+            <div class="violation-card">
+              <h3 class="cards-title">
+                <img src="assets/icons/listIcon.svg" alt="list Icon" />
+                بيانات المخالفة
+              </h3>
+              <div class="violation-card-details">
+                <div class="info-row">
+                  <p>
+                    رقم المخالفة
+
+                    <span>(#278)</span>
+                  </p>
+                </div>
+                <div class="info-row-doubled">
+                  <p>
+                    تاريخ التحرير
+                    <span>1446-03-29</span>
+                  </p>
+                  <p>وقت التحرير <span>16:30</span></p>
+                </div>
+                <div class="info-row">
+                  <p>
+                    التصنيف الرئيسي للمخالفات
+                    <span>مخالفات عدم تركيب كاميرات</span>
+                  </p>
+                </div>
+                <div class="info-row">
+                  <p>
+                    التصنيف الفرعي للمخالفات
+                    <span>مخالفة عدم تركيب كاميرات داخل المنشأة</span>
+                  </p>
+                </div>
+                <div class="info-row-doubled">
+                  <p>
+                    اسم الجهة الأمنية
+                    <span>مركز شرطة الممزر</span>
+                  </p>
+                  <p>فئة الجهة الأمنية <span>الشرطة</span></p>
+                </div>
+                <div class="info-row">
+                  <p>
+                    مصدر المخالفة
+                    <span>غرفة العمليات</span>
+                  </p>
+                </div>
+                <div class="info-row-doubled">
+                  <p>الحد الأقصى <span>3,000 ريال</span></p>
+                  <p>الحد الأدنى <span>1,000 ريال</span></p>
+                </div>
+                <div class="info-row">
+                  <p>الحالة <span>تم الترحيل إلى منصة المخالفات</span></p>
+                </div>
+                <div class="info-row">
+                  <p>الملاحظات <span>66</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="site-location-card">
+              <h3 class="cards-title">
+                <img
+                  src="assets/icons/locationIcon.svg"
+                  alt="location Icon"
+                />خريطة الموقع
+              </h3>
+              <div class="site-location-details">
+                <div class="info-row-doubled">
+                  <p>المنطقة<span>المنطقة الشرقية</span></p>
+                  <p>المدينة<span>المدينة المنورة</span></p>
+                </div>
+                <div class="info-row">
+                  <p>
+                    الحي
+                    <span>حي الحرة الشمالية الشرقية</span>
+                  </p>
+                </div>
+                <div class="info-row flex-info-row">
+                  <p>إحداثيات <span>24.7136, 46.6753</span></p>
+                  <button>
+                    <img src="assets/icons/copyIcon.svg" alt="copy Icon" />
+                  </button>
+                </div>
+                <div class="info-row flex-info-row">
+                  <p>
+                    المعلم
+                    <span>لا يوجد</span>
+                  </p>
+                  <img src="assets/icons/addIcon.svg" alt="add Icon" />
+                </div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.3957!2d46.675!3d24.6877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDQxJzE1LjciTiA0NsKwNDAnMzAuMCJF!5e0!3m2!1sen!2ssa!4v1234567890"
+                  width="100%"
+                  height="424"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                >
+                </iframe>
+              </div>
+            </div>
+            <div class="contributor-officer-card">
+              <h3 class="cards-title">
+                <img src="assets/icons/personIcon.svg" alt="person Icon" />
+                الضباط المشاركين
+              </h3>
+              <div class="info-row">
+                <p>الاسم <span>تركي بن ناصر العتيبي</span></p>
+              </div>
+              <div class="info-row">
+                <p>الاسم<span>فيصل محسن عبدالمحسن السياري</span></p>
+              </div>
+              <div class="info-row">
+                <p>الاسم<span>سعود بن عبدالله الشهري</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="left-violation-details-column">
+            <!-- property details card  -->
+            <div class="property-details-card">
+              <div class="property-details-header">
+                <h3>
+                  <img
+                    src="assets/icons/buildingsIcon.svg"
+                    alt="buildings Icon"
+                  />
+                  بيانات المنشأة
+                </h3>
+                <button>
+                  التفاصيل
+                  <img src="assets/icons/arrowLeft.svg" alt="arrow Left" />
+                </button>
+              </div>
+              <div class="info-row">
+                <p>
+                  اسم المنشأة
+
+                  <span>شركه العربيه لخدمات الانترنت والاتصالات</span>
+                </p>
+              </div>
+              <div class="info-row-doubled info-row-tripled">
+                <p>نوع المنشأة<span>لا يوجد</span></p>
+                <p>رقم الترخيص<span>0</span></p>
+                <p>رقم السجل التجاري<span>7011024606</span></p>
+              </div>
+            </div>
+            <!-- company details cards  -->
+            <div class="company-details-card">
+              <h3 class="cards-title">
+                <img
+                  src="assets/icons/personIcon.svg"
+                  alt="person Icon"
+                />بيانات المشغل
+              </h3>
+              <div class="company-details-content">
+                <div class="company-details-header">
+                  <div class="company-header-title">
+                    <img src="assets/images/avatar2.png" alt="portrait image" />
+                    <div class="company-header-title-text">
+                      <span>لاسم بالكامل</span>
+                      <p>محمد عمر عبد اللطيف العشري</p>
+                    </div>
+                  </div>
+                  <div class="company-details-btns">
+                    <button class="personal-data-btn">
+                      <img src="assets/icons/white list.svg" alt="white list" />
+                      سجل الشخص
+                    </button>
+                    <div class="iqama-status">
+                      <button class="iqama-status-btn">حاله الاقامه</button>
+                      <img
+                        src="assets/icons/greenChevronDown.svg"
+                        alt="airoplane Icon"
+                      />
+                    </div>
+                    <img
+                      src="assets/icons/airoplaneIcon.svg"
+                      alt="airoplane Icon"
+                      class="airoplane-btn"
+                    />
+                    <button class="arrow-left-btn">
+                      <img src="assets/icons/arrowLeft.svg" alt="arrow Left" />
+                    </button>
+                  </div>
+                </div>
+                <div class="company-content-body">
+                  <div class="info-row-white-double">
+                    <p><span>رقم الهوية</span>1083881423</p>
+                    <p><span>الجنسية</span>مصر</p>
+                  </div>
+                  <div class="info-row-white-triple">
+                    <p><span>تاريخ الميلاد</span>03-01-1414</p>
+                    <p><span>العمر</span>32</p>
+                    <p><span>الجنس</span>ذكر</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- employee details card  -->
+            <div class="company-details-card">
+              <h3 class="cards-title">
+                <img
+                  src="assets/icons/personIcon.svg"
+                  alt="person Icon"
+                />بيانات الموظف
+              </h3>
+              <div class="company-details-content">
+                <div class="company-details-header">
+                  <div class="company-header-title">
+                    <img src="assets/images/avatar2.png" alt="portrait image" />
+                    <div class="company-header-title-text">
+                      <span>لاسم بالكامل</span>
+                      <p>محمد عمر عبد اللطيف العشري</p>
+                    </div>
+                  </div>
+                  <div class="company-details-btns">
+                    <button class="personal-data-btn">
+                      <img src="assets/icons/white list.svg" alt="white list" />
+                      سجل الشخص
+                    </button>
+                    <div class="iqama-status">
+                      <button class="iqama-status-btn">حاله الاقامه</button>
+                      <img
+                        src="assets/icons/greenChevronDown.svg"
+                        alt="airoplane Icon"
+                      />
+                    </div>
+                    <img
+                      src="assets/icons/airoplaneIcon.svg"
+                      alt="airoplane Icon"
+                      class="airoplane-btn"
+                    />
+                    <button class="arrow-left-btn">
+                      <img src="assets/icons/arrowLeft.svg" alt="arrow Left" />
+                    </button>
+                  </div>
+                </div>
+                <div class="company-content-body">
+                  <div class="info-row-white-double">
+                    <p><span>رقم الهوية</span>1083881423</p>
+                    <p><span>الجنسية</span>مصر</p>
+                  </div>
+                  <div class="info-row-white-triple">
+                    <p><span>تاريخ الميلاد</span>03-01-1414</p>
+                    <p><span>العمر</span>32</p>
+                    <p><span>الجنس</span>ذكر</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- refusal data & attachment card  -->
+            <div class="refusal-data-attachment-card">
+              <div class="refusal-data-card">
+                <h3 class="cards-title refusal-cards-title">
+                  <img src="assets/icons/listIcon.svg" alt="list Icon" /> بيانات
+                  الاعتراض
+                </h3>
+                <div class="info-row-doubled info-row-tripled">
+                  <p>رقم الطلب في أبشر<span> 454 </span></p>
+                  <p>
+                    تاريخ الطلب في أبشر
+                    <span>1446-03-29</span>
+                  </p>
+                  <p>
+                    حالة الطلب
+                    <span>بدأ التصويت</span>
+                  </p>
+                </div>
+                <div class="info-row">
+                  <p>
+                    لجنة النظر
+                    <span>اللجنة الأولى لاعتراض مخالفة المنشآت</span>
+                  </p>
+                </div>
+                <div class="info-row-doubled info-row-tripled">
+                  <p>
+                    اسم ضابط منشئ الاعتراض<span>سعيد محمد سعيد المطلق</span>
+                  </p>
+                  <p>هوية الضابط<span>1083881423</span></p>
+                  <p>جهة الضابط<span> مركز شرطة الطار </span></p>
+                </div>
+              </div>
+              <div class="attachment-card">
+                <h3 class="cards-title">
+                  <img src="assets/icons/uploadIcon.svg" alt="upload Icon" />
+                  المرفقات
+                </h3>
+                <div class="info-row-doubled info-row-doubled-with-icons">
+                  <p>
+                    File1.png img
+                    <button>
+                      <img src="assets/icons/eyeIcon.svg" alt="eye Icon" />
+                    </button>
+                  </p>
+                  <p>
+                    File2.png
+                    <button>
+                      <img src="assets/icons/eyeIcon.svg" alt="eye Icon" />
+                    </button>
+                  </p>
+                </div>
+                <div class="info-row-doubled info-row-doubled-with-icons">
+                  <p>
+                    File3.png<button>
+                      <img src="assets/icons/eyeIcon.svg" alt="eye Icon" />
+                    </button>
+                  </p>
+                  <p>
+                    File4.png<button>
+                      <img src="assets/icons/eyeIcon.svg" alt="eye Icon" />
+                    </button>
+                  </p>
+                </div>
+                <div class="info-row flex-info-row flex-info-row-without-span">
+                  <p>File3.png</p>
+                  <button>
+                    <img src="assets/icons/eyeIcon.svg" alt="eye Icon" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="side-bar">
+        <div class="logo">
+          <img src="assets/images/logo.png" alt="logo" />
+          <img
+            src="assets/icons/arrow-left-circle-fill.svg"
+            alt="arrow-left-circle-fill"
+            class="left-arrow-logo"
+          />
+        </div>
+        <ul>
+          <li>
+            <button>
+              <img src="assets/icons/homeIconSideBar.svg" alt="home Icon" />
+            </button>
+          </li>
+          <li>
+            <button>
+              <img src="assets/icons/archiveIcon.svg" alt="archive Icon" />
+            </button>
+          </li>
+          <li>
+            <button>
+              <img src="assets/icons/UsersIcon.svg" alt="Users Icon" />
+            </button>
+          </li>
+          <li>
+            <button>
+              <img src="assets/icons/makkahIcon.svg" alt="makkah Icon" />
+            </button>
+          </li>
+          <li>
+            <button>
+              <img src="assets/icons/fileIcon.svg" alt="file Icon" />
+            </button>
+          </li>
+          <li>
+            <button class="lastSidebarButton">
+              <img
+                src="assets/icons/organizationIcon.svg"
+                alt="organization Icon"
+              />
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>
